@@ -1,0 +1,992 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sports Goods - Giống Ảnh</title>
+    <link href="./vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/caulong.css" />
+  </head>
+
+  <body>
+    <header class="header-top py-2">
+      <div class="container-fluid px-3 px-lg-5">
+        <div class="row align-items-center">
+          <div class="col-6 col-lg-2 d-flex align-items-center">
+            <a href="trangchu.html">
+              <img
+                src="./assets/images/image(HoacDo)/AZ2RXBxfi86DKAKnFoZvfQ-AZ2RXBxf_P6bQD0wXFzriA-removebg-preview.png"
+                alt="Logo Sports Goods"
+                style="max-height: 60px; object-fit: contain"
+              />
+            </a>
+          </div>
+
+          <div
+            class="col-6 d-flex d-lg-none justify-content-end align-items-center gap-2"
+          >
+            <button
+              class="btn-icon shadow-sm"
+              style="width: 38px; height: 38px; font-size: 15px"
+            >
+              <i class="fas fa-shopping-cart"></i>
+            </button>
+            <button
+              class="btn-icon shadow-sm"
+              style="width: 38px; height: 38px; font-size: 15px"
+            >
+              <i class="fas fa-user"></i>
+            </button>
+            <button
+              class="navbar-toggler border-0 shadow-none text-white p-1 ms-1"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#headerMenu"
+              style="background: rgba(255, 255, 255, 0.2); border-radius: 6px"
+            >
+              <i
+                class="fas fa-bars fa-lg"
+                style="
+                  width: 25px;
+                  height: 25px;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                "
+              ></i>
+            </button>
+          </div>
+
+          <div class="col-12 col-lg-8">
+            <div
+              class="collapse d-lg-flex flex-column align-items-center mt-3 mt-lg-0"
+              id="headerMenu"
+            >
+              <div
+                class="search-wrapper w-100 mx-auto"
+                style="max-width: 800px"
+              >
+                <input
+                  type="text"
+                  class="form-control search-input w-100"
+                  placeholder="Tìm kiếm ở đây..."
+                />
+                <button class="search-btn">
+                  <i class="fas fa-search"></i>
+                </button>
+              </div>
+
+              <!-- Menu Điều hướng -->
+              <div
+                class="nav-menu d-flex flex-column flex-lg-row justify-content-center align-items-center w-100 mt-lg-2"
+              >
+                <a href="trangchu.html" class="nav-link-custom">Trang chủ</a>
+
+                <!-- MENU BÓNG ĐÁ (Đã tách nút) -->
+                <div class="dropdown d-flex align-items-center">
+                  <!-- 1. Bấm vào chữ -> Chuyển trang -->
+                  <a
+                    href="bongda.html"
+                    class="nav-link-custom"
+                    style="padding-right: 4px"
+                    >Bóng đá</a
+                  >
+                  <!-- 2. Bấm vào mũi tên -> Xổ menu -->
+                  <a
+                    href="#"
+                    class="nav-link-custom"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                    style="padding-left: 4px; padding-right: 10px"
+                  >
+                    <i class="fas fa-chevron-down" style="font-size: 11px"></i>
+                  </a>
+
+                  <ul class="dropdown-menu shadow">
+                    <li>
+                      <a
+                        class="dropdown-item fw-bold text-danger"
+                        href="bongda.html"
+                        >Tất cả Bóng đá</a
+                      >
+                    </li>
+                    <li><hr class="dropdown-divider" /></li>
+                    <li>
+                      <a class="dropdown-item" href="bongda.html"
+                        >Giày bóng đá</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="bongda.html"
+                        >Áo quần bóng đá</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="bongda.html"
+                        >Phụ kiện (Bóng, Tất...)</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+
+                <!-- MENU CẦU LÔNG (Đã tách nút) -->
+                <div class="dropdown d-flex align-items-center">
+                  <!-- 1. Bấm vào chữ -> Chuyển trang -->
+                  <a
+                    href="caulong.html"
+                    class="nav-link-custom"
+                    style="padding-right: 4px"
+                    >Cầu lông</a
+                  >
+                  <!-- 2. Bấm vào mũi tên -> Xổ menu -->
+                  <a
+                    href="#"
+                    class="nav-link-custom"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                    style="padding-left: 4px; padding-right: 10px"
+                  >
+                    <i class="fas fa-chevron-down" style="font-size: 11px"></i>
+                  </a>
+
+                  <ul class="dropdown-menu shadow">
+                    <li>
+                      <a class="dropdown-item" href="caulong.html"
+                        >Vợt cầu lông</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="caulong.html"
+                        >Giày cầu lông</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="caulong.html"
+                        >Quần áo cầu lông</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="caulong.html"
+                        >Phụ kiện cầu lông</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+
+                <a href="sale.html" class="nav-link-custom">Xả kho 50%</a>
+                <a href="lienhe.html" class="nav-link-custom">Liên hệ</a>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="col-lg-2 d-none d-lg-flex justify-content-end align-items-center gap-3"
+          >
+            <button class="btn-icon shadow-sm">
+              <i class="fas fa-shopping-cart"></i>
+            </button>
+            <button class="btn-icon shadow-sm">
+              <i class="fas fa-user"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="breadcrumb-section bg-light">
+      <div class="container-custom">
+        <small class="text-muted">Trang chủ > Vợt cầu lông</small>
+      </div>
+    </section>
+
+    <section class="filter-section container-custom">
+      <div class="filter-btns d-flex mb-3">
+        <button class="btn btn-outline-secondary btn-sm active">
+          Vợt cầu lông
+        </button>
+        <button class="btn btn-outline-secondary btn-sm">Giày cầu lông</button>
+        <button class="btn btn-outline-secondary btn-sm">Áo cầu lông</button>
+        <button class="btn btn-outline-secondary btn-sm">Balo cầu lông</button>
+      </div>
+      <div class="filter-selects d-flex gap-2">
+        <select class="form-select form-select-sm">
+          <option selected>CHỌN MỨC GIÁ</option>
+        </select>
+        <select class="form-select form-select-sm">
+          <option selected>CHỌN THƯƠNG HIỆU</option>
+        </select>
+        <select class="form-select form-select-sm">
+          <option selected>CHỌN QUỐC GIA</option>
+        </select>
+        <select class="form-select form-select-sm">
+          <option selected>CHỌN MÀU SẮC</option>
+        </select>
+        <select class="form-select form-select-sm">
+          <option selected>SIZE GIÀY</option>
+        </select>
+      </div>
+    </section>
+
+    <div class="act-banner">
+      <i class="fas fa-chevron-left"></i> Hoạt động
+      <i class="fas fa-chevron-right"></i>
+    </div>
+
+    <section class="container-custom my-5">
+      <div class="section-title-wrapper">
+        <h3>Vợt cầu lông</h3>
+      </div>
+
+      <div class="row">
+        <div class="col-md-3 product-item">
+          <div class="product-card-v2">
+            <div class="card-pink-frame">
+              <div class="card-img-wrapper">
+                <span class="deal-tag">HOT DEAL</span>
+                <img
+                  src="/assets/images/image(kieu)/vot-cau-long-yonex.webp"
+                  class="card-img-top"
+                  alt="Vợt 1"
+                />
+              </div>
+              <div class="card-body-v2">
+                <div class="brand-text">Thương hiệu: Yonex</div>
+                <h6 class="product-title">
+                  Vợt cầu lông Yonex Arcsaber 11 Pro Chính Hãng
+                </h6>
+                <div class="price-wrapper">
+                  <span class="price-new">3.190.000đ</span>
+                  <span class="price-old">4.000.000đ</span>
+                </div>
+                <div class="card-buttons">
+                  <button class="btn-add-cart">Thêm giỏ</button>
+                  <button class="btn-buy-now">Mua ngay</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 product-item">
+          <div class="product-card-v2">
+            <div class="card-pink-frame">
+              <div class="card-img-wrapper">
+                <img
+                  src="/assets/images/image(kieu)/vot-cau-long-victor-kitetsu.webp"
+                  class="card-img-top"
+                  alt="Vợt 2"
+                />
+              </div>
+              <div class="card-body-v2">
+                <div class="brand-text">Thương hiệu: Victor</div>
+                <h6 class="product-title">
+                  Vợt cầu lông Victor Thruster K 9900 Chính Hãng
+                </h6>
+                <div class="price-wrapper">
+                  <span class="price-new">2.950.000đ</span>
+                  <span class="price-old">3.500.000đ</span>
+                </div>
+                <div class="card-buttons">
+                  <button class="btn-add-cart">Thêm giỏ</button>
+                  <button class="btn-buy-now">Mua ngay</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 product-item">
+          <div class="product-card-v2">
+            <div class="card-pink-frame">
+              <div class="card-img-wrapper">
+                <img
+                  src="/assets/images/image(kieu)/vợt li.ning.jpg"
+                  class="card-img-top"
+                  alt="Vợt 3"
+                />
+              </div>
+              <div class="card-body-v2">
+                <div class="brand-text">Thương hiệu: Lining</div>
+                <h6 class="product-title">
+                  Vợt cầu lông Lining Tectonic 7 Chính Hãng
+                </h6>
+                <div class="price-wrapper">
+                  <span class="price-new">2.580.000đ</span>
+                </div>
+                <div class="card-buttons">
+                  <button class="btn-add-cart">Thêm giỏ</button>
+                  <button class="btn-buy-now">Mua ngay</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 product-item">
+          <div class="product-card-v2">
+            <div class="card-pink-frame">
+              <div class="card-img-wrapper">
+                <img
+                  src="./assets/images/image(kieu)/vot-cau-long-mizuno.webp"
+                  class="card-img-top"
+                  alt="Vợt 4"
+                />
+              </div>
+              <div class="card-body-v2">
+                <div class="brand-text">Thương hiệu: Prokennex</div>
+                <h6 class="product-title">
+                  Vợt cầu lông Prokennex Power Shot Chính Hãng
+                </h6>
+                <div class="price-wrapper">
+                  <span class="price-new">1.450.000đ</span>
+                </div>
+                <div class="card-buttons">
+                  <button class="btn-add-cart">Thêm giỏ</button>
+                  <button class="btn-buy-now">Mua ngay</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container-custom my-5">
+      <div class="section-title-wrapper">
+        <h3>Áo cầu lông nữ</h3>
+      </div>
+      <div class="row">
+        <div class="col-md-3 product-item">
+          <div class="product-card-v2">
+            <div class="card-pink-frame">
+              <div class="card-img-wrapper">
+                <img
+                  src="/assets/images/image(kieu)/logo áo nu.png"
+                  class="card-img-top"
+                  alt="Áo nữ 1"
+                />
+              </div>
+              <div class="card-body-v2">
+                <h6 class="product-title">
+                  Áo cầu lông pickleball Beyono Ray CL16 đa năng - Vicsport
+                </h6>
+                <div class="price-wrapper">
+                  <span class="price-new">199.000đ</span>
+                </div>
+                <div class="card-buttons">
+                  <button class="btn-add-cart">Thêm giỏ</button>
+                  <button class="btn-buy-now">Mua ngay</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 product-item">
+          <div class="product-card-v2">
+            <div class="card-pink-frame">
+              <div class="card-img-wrapper">
+                <img
+                  src="/assets/images/image(kieu)/ảnh áo cầu lông nu.jpg"
+                  class="card-img-top"
+                  alt="Áo nữ 2"
+                />
+              </div>
+              <div class="card-body-v2">
+                <h6 class="product-title">
+                  Phong Cách Mới Cầu Lông Áo Nam Nữ Nhanh Khô Thoáng Khí Thể
+                  Thao
+                </h6>
+                <div class="price-wrapper">
+                  <span class="price-new">190.000đ</span>
+                </div>
+                <div class="card-buttons">
+                  <button class="btn-add-cart">Thêm giỏ</button>
+                  <button class="btn-buy-now">Mua ngay</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 product-item">
+          <div class="product-card-v2">
+            <div class="card-pink-frame">
+              <div class="card-img-wrapper">
+                <img
+                  src="/assets/images/image(kieu)/ảnh áo nu.jpg"
+                  class="card-img-top"
+                  alt="Áo nữ 3"
+                />
+              </div>
+              <div class="card-body-v2">
+                <h6 class="product-title">
+                  Áo cầu lông Victor 2025 mới, khô nhanh thoáng khí, phù hợp nam
+                  nữ
+                </h6>
+                <div class="price-wrapper">
+                  <span class="price-new">200.000đ</span>
+                </div>
+                <div class="card-buttons">
+                  <button class="btn-add-cart">Thêm giỏ</button>
+                  <button class="btn-buy-now">Mua ngay</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 product-item">
+          <div class="product-card-v2">
+            <div class="card-pink-frame">
+              <div class="card-img-wrapper">
+                <img
+                  src="/assets/images/image(kieu)/ảnh áo nu 1.jpg"
+                  class="card-img-top"
+                  alt="Áo nữ 4"
+                />
+              </div>
+              <div class="card-body-v2">
+                <h6 class="product-title">
+                  Áo thun thể thao nữ mới 2025, nhanh khô và hút mồ hôi
+                </h6>
+                <div class="price-wrapper">
+                  <span class="price-new">160.000đ</span>
+                </div>
+                <div class="card-buttons">
+                  <button class="btn-add-cart">Thêm giỏ</button>
+                  <button class="btn-buy-now">Mua ngay</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container-custom my-5">
+      <div class="section-title-wrapper">
+        <h3>Áo cầu lông nam</h3>
+      </div>
+      <div class="row">
+        <div class="col-md-3 product-item">
+          <div class="product-card-v2">
+            <div class="card-pink-frame">
+              <div class="card-img-wrapper">
+                <img
+                  src="/assets/images/image(kieu)/logo ao nam.jpg"
+                  class="card-img-top"
+                  alt="Áo nam 1"
+                />
+              </div>
+              <div class="card-body-v2">
+                <h6 class="product-title">
+                  Mẫu Áo Cầu Lông Nam Nữ Mã CLX-48 Xanh Bích Thiết Kế Độc ...
+                </h6>
+                <div class="price-wrapper">
+                  <span class="price-new">180.000đ</span>
+                </div>
+                <div class="card-buttons">
+                  <button class="btn-add-cart">Thêm giỏ</button>
+                  <button class="btn-buy-now">Mua ngay</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 product-item">
+          <div class="product-card-v2">
+            <div class="card-pink-frame">
+              <div class="card-img-wrapper">
+                <img
+                  src="/assets/images/image(kieu)/ảnh áo nam 1 1.jpg"
+                  class="card-img-top"
+                  alt="Áo nam 2"
+                />
+              </div>
+              <div class="card-body-v2">
+                <h6 class="product-title">
+                  Áo cầu lông Bulbal nam BAT1010, M=>2XL 169QA
+                </h6>
+                <div class="price-wrapper">
+                  <span class="price-new">200.000đ</span>
+                </div>
+                <div class="card-buttons">
+                  <button class="btn-add-cart">Thêm giỏ</button>
+                  <button class="btn-buy-now">Mua ngay</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 product-item">
+          <div class="product-card-v2">
+            <div class="card-pink-frame">
+              <div class="card-img-wrapper">
+                <img
+                  src="/assets/images/image(kieu)/ảnh áo nam 2.jpg"
+                  class="card-img-top"
+                  alt="Áo nam 3"
+                />
+              </div>
+              <div class="card-body-v2">
+                <h6 class="product-title">
+                  Áo cầu lông Yonex mẫu 2023 ACL13 - S (cái)
+                </h6>
+                <div class="price-wrapper">
+                  <span class="price-new">190.000đ</span>
+                </div>
+                <div class="card-buttons">
+                  <button class="btn-add-cart">Thêm giỏ</button>
+                  <button class="btn-buy-now">Mua ngay</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 product-item">
+          <div class="product-card-v2">
+            <div class="card-pink-frame">
+              <div class="card-img-wrapper">
+                <img
+                  src="/assets/images/image(kieu)/ảnh áo nam 3.jpg"
+                  class="card-img-top"
+                  alt="Áo nam 4"
+                />
+              </div>
+              <div class="card-body-v2">
+                <h6 class="product-title">
+                  Áo cầu lông Lining 6221 nam - Trắng đen
+                </h6>
+                <div class="price-wrapper">
+                  <span class="price-new">170.000đ</span>
+                </div>
+                <div class="card-buttons">
+                  <button class="btn-add-cart">Thêm giỏ</button>
+                  <button class="btn-buy-now">Mua ngay</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container-custom my-5">
+      <div class="section-title-wrapper">
+        <h3>Giày thể thao</h3>
+      </div>
+      <div class="row">
+        <div class="col-md-3 product-item">
+          <div class="product-card-v2">
+            <div class="card-pink-frame">
+              <div class="card-img-wrapper">
+                <img
+                  src="/assets/images/image(kieu)/gày 4.png"
+                  class="card-img-top"
+                  alt="Giày 1"
+                />
+              </div>
+              <div class="card-body-v2">
+                <h6 class="product-title">
+                  Giày cầu lông Yonex Power Cushion 65 Z3
+                </h6>
+                <div class="price-wrapper">
+                  <span class="price-new">2.350.000đ</span>
+                </div>
+                <div class="card-buttons">
+                  <button class="btn-add-cart">Thêm giỏ</button>
+                  <button class="btn-buy-now">Mua ngay</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 product-item">
+          <div class="product-card-v2">
+            <div class="card-pink-frame">
+              <div class="card-img-wrapper">
+                <img
+                  src="/assets/images/image(kieu)/giày 1.jpg"
+                  class="card-img-top"
+                  alt="Giày 2"
+                />
+              </div>
+              <div class="card-body-v2">
+                <h6 class="product-title">
+                  Giày cầu lông Yonex cao cấp chuyên nghiệp 65Z3 màu xanh dương
+                  dành cho cả nam và nữ mẫu mới
+                </h6>
+                <div class="price-wrapper">
+                  <span class="price-new">1.950.000đ</span>
+                </div>
+                <div class="card-buttons">
+                  <button class="btn-add-cart">Thêm giỏ</button>
+                  <button class="btn-buy-now">Mua ngay</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 product-item">
+          <div class="product-card-v2">
+            <div class="card-pink-frame">
+              <div class="card-img-wrapper">
+                <img
+                  src="./assets/images/image(kieu)/giày 2.jpg"
+                  class="card-img-top"
+                  alt="Giày 3"
+                />
+              </div>
+              <div class="card-body-v2">
+                <h6 class="product-title">
+                  Giày cầu lông Lining nam chính hãng AYTT001-3 mẫu mới màu
+                  trắng đế kếp
+                </h6>
+                <div class="price-wrapper">
+                  <span class="price-new">1.880.000đ</span>
+                </div>
+                <div class="card-buttons">
+                  <button class="btn-add-cart">Thêm giỏ</button>
+                  <button class="btn-buy-now">Mua ngay</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 product-item">
+          <div class="product-card-v2">
+            <div class="card-pink-frame">
+              <div class="card-img-wrapper">
+                <img
+                  src="/assets/images/image(kieu)/giày 3.jpg"
+                  class="card-img-top"
+                  alt="Giày 4"
+                />
+              </div>
+              <div class="card-body-v2">
+                <h6 class="product-title">
+                  Giày Mizuno Thunder Blade Hồng cam
+                </h6>
+                <div class="price-wrapper">
+                  <span class="price-new">950.000đ</span>
+                </div>
+                <div class="card-buttons">
+                  <button class="btn-add-cart">Thêm giỏ</button>
+                  <button class="btn-buy-now">Mua ngay</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container-custom my-5">
+      <div class="section-title-wrapper">
+        <h3>Balo thể thao</h3>
+      </div>
+      <div class="row">
+        <div class="col-md-3 product-item">
+          <div class="product-card-v2 position-relative">
+            <span class="tag-vort-balo">BALO</span>
+            <div class="card-pink-frame">
+              <div class="card-img-wrapper">
+                <img
+                  src="/assets/images/image(kieu)/Balo cầu lông Yonex BA229 Chính Hãng.webp"
+                  class="card-img-top"
+                  alt="Balo 1"
+                />
+              </div>
+              <div class="card-body-v2">
+                <h6 class="product-title">
+                  Balo cầu lông Yonex BA229 Chính Hãng
+                </h6>
+                <div class="price-wrapper">
+                  <span class="price-new">850.000đ</span>
+                </div>
+                <div class="card-buttons">
+                  <button class="btn-add-cart">Thêm giỏ</button>
+                  <button class="btn-buy-now">Mua ngay</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 product-item">
+          <div class="product-card-v2 position-relative">
+            <span class="tag-vort-balo">BALO</span>
+            <div class="card-pink-frame">
+              <div class="card-img-wrapper">
+                <img
+                  src="/assets/images/image(kieu)/balo 1.jpg"
+                  class="card-img-top"
+                  alt="Balo 2"
+                />
+              </div>
+              <div class="card-body-v2">
+                <h6 class="product-title">
+                  Balo cầu lông Yonex BAG525B1212Z chính hãng
+                </h6>
+                <div class="price-wrapper">
+                  <span class="price-new">720.000đ</span>
+                </div>
+                <div class="card-buttons">
+                  <button class="btn-add-cart">Thêm giỏ</button>
+                  <button class="btn-buy-now">Mua ngay</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 product-item">
+          <div class="product-card-v2 position-relative">
+            <span class="tag-vort-balo">BALO</span>
+            <div class="card-pink-frame">
+              <div class="card-img-wrapper">
+                <img
+                  src="/assets/images/image(kieu)/balo 2.jpg"
+                  class="card-img-top"
+                  alt="Balo 3"
+                />
+              </div>
+              <div class="card-body-v2">
+                <h6 class="product-title">
+                  Balo cầu lông Lining P-ABSV133-3 chính hãng
+                </h6>
+                <div class="price-wrapper">
+                  <span class="price-new">690.000đ</span>
+                </div>
+                <div class="card-buttons">
+                  <button class="btn-add-cart">Thêm giỏ</button>
+                  <button class="btn-buy-now">Mua ngay</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 product-item">
+          <div class="product-card-v2 position-relative">
+            <span class="tag-vort-balo">BALO</span>
+            <div class="card-pink-frame">
+              <div class="card-img-wrapper">
+                <img
+                  src="/assets/images/image(kieu)/balo 3.jpg"
+                  class="card-img-top"
+                  alt="Balo 4"
+                />
+              </div>
+              <div class="card-body-v2">
+                <h6 class="product-title">
+                  Balo cầu lông Victor BR5051 CNY - Trắng đỏ chính hãng
+                </h6>
+                <div class="price-wrapper">
+                  <span class="price-new">550.000đ</span>
+                </div>
+                <div class="card-buttons">
+                  <button class="btn-add-cart">Thêm giỏ</button>
+                  <button class="btn-buy-now">Mua ngay</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <nav class="container-custom my-5 pagination-custom">
+      <ul class="pagination pagination-sm justify-content-center">
+        <li class="page-item active"><a class="page-link" href="#">1</a></li>
+        <li class="page-item"><a class="page-link" href="#">2</a></li>
+        <li class="page-item"><a class="page-link" href="#">>></a></li>
+      </ul>
+    </nav>
+
+    <section class="container mt-5 mb-5">
+      <div
+        class="row row-cols-2 row-cols-md-3 row-cols-lg-5 g-4 justify-content-center align-items-center"
+      >
+        <div class="col">
+          <div class="brand-item">
+            <img
+              src="./assets/images/image(Thien)/Spalding-Logo.png"
+              class="img-fluid"
+              alt="Spalding"
+            />
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="brand-item">
+            <img
+              src="./assets/images/image(Thien)/fila.png"
+              class="img-fluid"
+              alt="Fila"
+            />
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="brand-item">
+            <img
+              src="./assets/images/image(Thien)/li-ning.png"
+              class="img-fluid"
+              alt="Li-Ning"
+            />
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="brand-item">
+            <img
+              src="./assets/images/image(Thien)/điaora.png"
+              class="img-fluid"
+              alt="Diadora"
+            />
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="brand-item">
+            <img
+              src="./assets/images/image(Thien)/PUMA-logo.jpeg"
+              class="img-fluid"
+              alt="Puma"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="sticky-contact">
+      <a
+        href="https://zalo.me/0823885888"
+        class="contact-item zalo"
+        target="_blank"
+      >
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/9/91/Icon_of_Zalo.svg"
+          alt="Zalo"
+        />
+        <span class="color-change">0985675522</span>
+      </a>
+      <a href="tel:0823885888" class="contact-item phone">
+        <i class="fas fa-phone-alt"></i>
+        <span class="color-change">0985675522</span>
+      </a>
+    </div>
+    <button id="scroll-btn" class="scroll-top-btn">
+      <i class="fas fa-chevron-up" id="scroll-icon"></i>
+    </button>
+    <footer class="footer-section">
+      <div class="container">
+        <div
+          class="row pb-5 mb-5 border-bottom border-secondary border-opacity-25"
+        >
+          <div class="col-lg-6">
+            <h5 class="fw-bold text-uppercase">
+              Đăng ký nhận tin từ Sport Good
+            </h5>
+            <p class="small opacity-75">
+              Nhận ngay ưu đãi 10% cho đơn hàng đầu tiên của bạn.
+            </p>
+          </div>
+          <div class="col-lg-6">
+            <div class="input-group newsletter-box">
+              <input
+                type="text"
+                class="form-control bg-transparent text-white border-white"
+                placeholder="Địa chỉ Email của bạn..."
+              />
+              <button class="btn btn-light fw-bold px-4" type="button">
+                ĐĂNG KÝ
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-5 mb-4">
+            <h4 class="footer-brand mb-4">SPORT GOOD</h4>
+            <div class="footer-info">
+              <p class="fw-bold text-uppercase mb-3">
+                Công ty cổ phần Hoắc Đô và Thương mại
+              </p>
+              <p><i class="fas fa-id-card me-2"></i> MST: 0123686868</p>
+              <p>
+                <i class="fas fa-user-tie me-2"></i> Chịu trách nhiệm: Ông Hoàng
+                Hoắc Đô
+              </p>
+              <p>
+                <i class="fas fa-map-marker-alt me-2"></i> Tầng 2, Đô House,
+                Quỳnh Mai, Nghệ An
+              </p>
+              <p>
+                <i class="fas fa-building me-2"></i> VP: 25BT2 Linh Đàm, Hoàng
+                Mai, Hà Nội
+              </p>
+              <p><i class="fas fa-phone-alt me-2"></i> 0985.675.522</p>
+              <p><i class="fas fa-envelope me-2"></i> cudongauloi@gmail.com</p>
+            </div>
+            <div class="mt-4">
+              <img
+                src="./assets/images/image(HoacDo)/logo-da-thong-bao-bo-cong-thuong.webp"
+                class="bct-badge"
+                alt="Bộ công thương"
+              />
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mb-4">
+            <h5 class="footer-title">Chính sách khách hàng</h5>
+            <ul class="list-unstyled footer-links">
+              <li><a href="#">Chính sách bảo mật</a></li>
+              <li><a href="#">Chính sách vận chuyển</a></li>
+              <li><a href="#">Chính sách đổi trả</a></li>
+              <li><a href="#">Quy định sử dụng</a></li>
+              <li><a href="#">Hệ thống cửa hàng</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <h5 class="footer-title">Liên kết xã hội</h5>
+            <div class="social-icons d-flex gap-3 mb-4">
+              <a href="#" class="social-link"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+              <a href="#" class="social-link"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a href="#" class="social-link"
+                ><i class="fab fa-telegram-plane"></i
+              ></a>
+            </div>
+
+            <h5 class="footer-title">Phương thức thanh toán</h5>
+            <div class="payment-methods d-flex gap-2">
+              <img
+                src="./assets/images/image(HoacDo)/visa-removebg-preview.png"
+                alt="Visa"
+              />
+              <img
+                src="./assets/images/image(HoacDo)/jcp-removebg-preview.png"
+                alt="JCB"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="footer-bottom mt-5 py-3 border-top border-white border-opacity-10"
+      >
+        <div class="container text-center">
+          <p class="mb-0 opacity-50">
+            © Bản quyền thuộc về sportgood.vn | Cung cấp bởi Hoắc Đô
+          </p>
+        </div>
+      </div>
+    </footer>
+    <script src="./assets/js/main.js"></script>
+    <script src="./vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

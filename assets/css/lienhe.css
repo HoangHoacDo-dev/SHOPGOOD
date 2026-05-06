@@ -1,0 +1,209 @@
+/* =========================================
+   BIẾN MÀU SẮC DÀNH RIÊNG CHO TRANG LIÊN HỆ
+========================================= */
+:root {
+  --orange: #ff8c00; /* Màu cam cho Banner và Nút bấm */
+  --gray-input: #e0e0e0; /* Màu xám nhạt cho các ô nhập liệu */
+  --light-pink: #fbe9e7; /* Màu hồng nhạt cho khung Đăng ký ở dưới cùng */
+}
+
+/* Các code cũ của bạn giữ nguyên bên dưới dòng này */
+/* Sửa lại class này trong file lienhe.css */
+.orange-banner {
+  background: linear-gradient(
+    to right,
+    #ff7a00,
+    #ffb000
+  ); /* Đổi sang màu cam chuyển sắc */
+  padding: 40px 0;
+  text-align: center;
+  border-radius: 15px;
+  margin: 20px auto 40px auto; /* Tăng khoảng cách phía dưới lên một chút */
+  width: 90%;
+  box-shadow: 0 4px 10px rgba(255, 122, 0, 0.3); /* Thêm đổ bóng màu cam cho đẹp */
+}
+
+.orange-banner h1 {
+  font-size: 36px;
+  font-weight: 900;
+  color: #ffffff; /* Thêm dòng này để chữ "Liên Hệ" biến thành màu trắng cho nổi bật */
+  margin: 0;
+}
+
+/* Contact Section */
+.content-wrapper {
+  display: flex;
+  gap: 40px;
+  margin-bottom: 40px;
+}
+.contact-left {
+  flex: 1;
+}
+.contact-right {
+  flex: 1;
+}
+
+.info-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  gap: 20px;
+}
+.info-item i {
+  font-size: 24px;
+  color: #333;
+  width: 30px;
+}
+.info-item p {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.divider {
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 30px 0;
+}
+.form-title {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  background-color: var(--gray-input);
+  border: none;
+  border-radius: 20px;
+  outline: none;
+}
+.contact-form textarea {
+  border-radius: 15px;
+}
+
+.btn-orange-submit {
+  background-color: var(--orange);
+  border: none;
+  padding: 10px 30px;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  display: block;
+  margin: 10px 0;
+}
+
+.map-box {
+  height: 450px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* Brands */
+.brands-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.brand-item {
+  border: 1px solid #333;
+  padding: 10px 20px;
+  border-radius: 20px;
+  width: 18%;
+  display: flex;
+  justify-content: center;
+}
+.brand-item img {
+  max-height: 40px;
+  max-width: 100%;
+}
+
+/* Newsletter */
+.newsletter-bar {
+  background-color: var(--light-pink);
+  padding: 30px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.newsletter-bar h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+.newsletter-form {
+  display: flex;
+  background: var(--gray-input);
+  border-radius: 25px;
+  padding: 5px 5px 5px 20px;
+  width: 50%;
+}
+.newsletter-form input {
+  background: transparent;
+  border: none;
+  outline: none;
+  flex: 1;
+}
+.newsletter-form button {
+  background-color: var(--orange);
+  border: none;
+  padding: 10px 25px;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+/* 1. NỚI RỘNG KHOẢNG CÁCH CÁC KHỐI CHÍNH (Chữa bệnh dính nhau) */
+.contact-section {
+  padding-top: 20px;
+  padding-bottom: 80px; /* Đẩy thanh Newsletter cách xa Footer đỏ ra */
+}
+
+.content-wrapper {
+  display: flex;
+  gap: 60px; /* Đẩy cột Form và cột Bản đồ cách xa nhau ra */
+  margin-top: 30px; /* Cách xa cái Banner Cam ở trên */
+  margin-bottom: 60px; /* Cách xa hàng Logo ở dưới */
+}
+
+.brands-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px; /* Cách xa thanh Newsletter ở dưới */
+}
+
+/* 2. CHỈNH Ô NHẬP LIỆU TO RÕ, THOÁNG MẮT */
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 15px 20px; /* Làm ô nhập liệu to và béo hơn */
+  margin-bottom: 20px; /* Đẩy các ô cách xa nhau ra */
+  background-color: var(--gray-input);
+  border: none;
+  border-radius: 15px;
+  outline: none;
+  font-size: 14px;
+}
+
+/* 3. LÀM ĐẸP NÚT GỬI LIÊN HỆ (Cho to ra, chữ trắng, đổ bóng) */
+.btn-orange-submit {
+  background-color: var(--orange);
+  color: #ffffff; /* Sửa chữ thành màu trắng */
+  border: none;
+  padding: 14px 45px; /* Làm nút to ra, chuẩn form */
+  border-radius: 30px; /* Bo góc tròn trịa */
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  display: block;
+  margin-top: 10px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(255, 140, 0, 0.4); /* Thêm bóng đổ cam cho nút nổi lên */
+}
+
+.btn-orange-submit:hover {
+  transform: translateY(-3px); /* Rê chuột vào nút sẽ nảy lên nhẹ */
+  box-shadow: 0 6px 15px rgba(255, 140, 0, 0.6);
+}

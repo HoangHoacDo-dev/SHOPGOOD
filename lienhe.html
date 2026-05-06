@@ -1,0 +1,422 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Liên hệ - Sport Good</title>
+    <link href="./vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/lienhe.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header class="header-top py-2">
+      <div class="container-fluid px-3 px-lg-5">
+        <div class="row align-items-center">
+          <div class="col-6 col-lg-2 d-flex align-items-center">
+            <a href="trangchu.html">
+              <img
+                src="./assets/images/image(HoacDo)/AZ2RXBxfi86DKAKnFoZvfQ-AZ2RXBxf_P6bQD0wXFzriA-removebg-preview.png"
+                alt="Logo Sports Goods"
+                style="max-height: 60px; object-fit: contain"
+              />
+            </a>
+          </div>
+
+          <div
+            class="col-6 d-flex d-lg-none justify-content-end align-items-center gap-2"
+          >
+            <button
+              class="btn-icon shadow-sm"
+              style="width: 38px; height: 38px; font-size: 15px"
+            >
+              <i class="fas fa-shopping-cart"></i>
+            </button>
+            <button
+              class="btn-icon shadow-sm"
+              style="width: 38px; height: 38px; font-size: 15px"
+            >
+              <i class="fas fa-user"></i>
+            </button>
+            <button
+              class="navbar-toggler border-0 shadow-none text-white p-1 ms-1"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#headerMenu"
+              style="background: rgba(255, 255, 255, 0.2); border-radius: 6px"
+            >
+              <i
+                class="fas fa-bars fa-lg"
+                style="
+                  width: 25px;
+                  height: 25px;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                "
+              ></i>
+            </button>
+          </div>
+
+          <div class="col-12 col-lg-8">
+            <div
+              class="collapse d-lg-flex flex-column align-items-center mt-3 mt-lg-0"
+              id="headerMenu"
+            >
+              <div
+                class="search-wrapper w-100 mx-auto"
+                style="max-width: 800px"
+              >
+                <input
+                  type="text"
+                  class="form-control search-input w-100"
+                  placeholder="Tìm kiếm ở đây..."
+                />
+                <button class="search-btn">
+                  <i class="fas fa-search"></i>
+                </button>
+              </div>
+
+              <!-- Menu Điều hướng -->
+              <div
+                class="nav-menu d-flex flex-column flex-lg-row justify-content-center align-items-center w-100 mt-lg-2"
+              >
+                <a href="trangchu.html" class="nav-link-custom">Trang chủ</a>
+
+                <!-- MENU BÓNG ĐÁ (Đã tách nút) -->
+                <div class="dropdown d-flex align-items-center">
+                  <!-- 1. Bấm vào chữ -> Chuyển trang -->
+                  <a
+                    href="bongda.html"
+                    class="nav-link-custom"
+                    style="padding-right: 4px"
+                    >Bóng đá</a
+                  >
+                  <!-- 2. Bấm vào mũi tên -> Xổ menu -->
+                  <a
+                    href="#"
+                    class="nav-link-custom"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                    style="padding-left: 4px; padding-right: 10px"
+                  >
+                    <i class="fas fa-chevron-down" style="font-size: 11px"></i>
+                  </a>
+
+                  <ul class="dropdown-menu shadow">
+                    <li>
+                      <a
+                        class="dropdown-item fw-bold text-danger"
+                        href="bongda.html"
+                        >Tất cả Bóng đá</a
+                      >
+                    </li>
+                    <li><hr class="dropdown-divider" /></li>
+                    <li>
+                      <a class="dropdown-item" href="bongda.html"
+                        >Giày bóng đá</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="bongda.html"
+                        >Áo quần bóng đá</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="bongda.html"
+                        >Phụ kiện (Bóng, Tất...)</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+
+                <!-- MENU CẦU LÔNG (Đã tách nút) -->
+                <div class="dropdown d-flex align-items-center">
+                  <!-- 1. Bấm vào chữ -> Chuyển trang -->
+                  <a
+                    href="caulong.html"
+                    class="nav-link-custom"
+                    style="padding-right: 4px"
+                    >Cầu lông</a
+                  >
+                  <!-- 2. Bấm vào mũi tên -> Xổ menu -->
+                  <a
+                    href="#"
+                    class="nav-link-custom"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                    style="padding-left: 4px; padding-right: 10px"
+                  >
+                    <i class="fas fa-chevron-down" style="font-size: 11px"></i>
+                  </a>
+
+                  <ul class="dropdown-menu shadow">
+                    <li>
+                      <a class="dropdown-item" href="caulong.html"
+                        >Vợt cầu lông</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="caulong.html"
+                        >Giày cầu lông</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="caulong.html"
+                        >Quần áo cầu lông</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="caulong.html"
+                        >Phụ kiện cầu lông</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+
+                <a href="sale.html" class="nav-link-custom">Xả kho 50%</a>
+                <a href="lienhe.html" class="nav-link-custom">Liên hệ</a>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="col-lg-2 d-none d-lg-flex justify-content-end align-items-center gap-3"
+          >
+            <button class="btn-icon shadow-sm">
+              <i class="fas fa-shopping-cart"></i>
+            </button>
+            <button class="btn-icon shadow-sm">
+              <i class="fas fa-user"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="orange-banner">
+      <h1>Liên Hệ</h1>
+    </section>
+
+    <main class="contact-section">
+      <div class="container">
+        <div class="content-wrapper">
+          <div class="contact-left">
+            <div class="info-group">
+              <div class="info-item">
+                <i class="fa fa-map-marker-alt"></i>
+                <p>
+                  <strong>25BT2 Linh Đàm</strong><br />Phường Hoàng Liệt, Quận
+                  Hoàng Mai, TP. Hà Nội
+                </p>
+              </div>
+              <div class="info-item">
+                <i class="fa fa-phone-alt"></i>
+                <p>0326308180</p>
+              </div>
+              <div class="info-item">
+                <i class="fa fa-envelope"></i>
+                <p>buihoanganh624@gmail.com</p>
+              </div>
+            </div>
+
+            <hr class="divider" />
+            <h3 class="form-title">Liên Hệ Chúng Tôi</h3>
+
+            <form class="contact-form">
+              <input type="text" placeholder="Họ và tên" />
+              <input type="email" placeholder="Email" />
+              <textarea rows="5" placeholder="Nội dung"></textarea>
+              <button type="submit" class="btn-orange-submit">
+                Gửi liên hệ
+              </button>
+            </form>
+          </div>
+
+          <div class="contact-right">
+            <div class="map-box">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3725.215562725514!2d105.828608!3d20.983994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ac57e2f5f1ed%3A0x67341829e2467d01!2sB%C3%A1n%20%C4%91%E1%BA%A3o%20Linh%20%C4%90%C3%A0m!5e0!3m2!1svi!2s!4v1714310000000"
+                width="100%"
+                height="100%"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+
+        <div class="brands-row">
+          <div class="brand-item">
+            <img
+              src="/assets/images/image(hoanganh)/Spalding-Logo.png"
+              alt="Spalding"
+            />
+          </div>
+          <div class="brand-item">
+            <img src="/assets/images/image(hoanganh)/điaora.png" alt="Fila" />
+          </div>
+          <div class="brand-item">
+            <img
+              src="/assets/images/image(hoanganh)/li-ning.png"
+              alt="Li-ning"
+            />
+          </div>
+          <div class="brand-item">
+            <img src="/assets/images/image(hoanganh)/fila.png" alt="Diadora" />
+          </div>
+          <div class="brand-item">
+            <img
+              src="/assets/images/image(hoanganh)/champion logo.png"
+              alt="Puma"
+            />
+          </div>
+        </div>
+
+        <div class="newsletter-bar">
+          <h3>ĐĂNG KÝ NHẬN KHUYẾN MÃI</h3>
+          <div class="newsletter-form">
+            <input type="email" placeholder="Email" />
+            <button type="button">ĐĂNG KÝ</button>
+          </div>
+        </div>
+      </div>
+    </main>
+    <div class="sticky-contact">
+      <a
+        href="https://zalo.me/0823885888"
+        class="contact-item zalo"
+        target="_blank"
+      >
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/9/91/Icon_of_Zalo.svg"
+          alt="Zalo"
+        />
+        <span class="color-change">0985675522</span>
+      </a>
+      <a href="tel:0823885888" class="contact-item phone">
+        <i class="fas fa-phone-alt"></i>
+        <span class="color-change">0985675522</span>
+      </a>
+    </div>
+    <button id="scroll-btn" class="scroll-top-btn">
+      <i class="fas fa-chevron-up" id="scroll-icon"></i>
+    </button>
+    <footer class="footer-section">
+      <div class="container">
+        <div
+          class="row pb-5 mb-5 border-bottom border-secondary border-opacity-25"
+        >
+          <div class="col-lg-6">
+            <h5 class="fw-bold text-uppercase">
+              Đăng ký nhận tin từ Sport Good
+            </h5>
+            <p class="small opacity-75">
+              Nhận ngay ưu đãi 10% cho đơn hàng đầu tiên của bạn.
+            </p>
+          </div>
+          <div class="col-lg-6">
+            <div class="input-group newsletter-box">
+              <input
+                type="text"
+                class="form-control bg-transparent text-white border-white"
+                placeholder="Địa chỉ Email của bạn..."
+              />
+              <button class="btn btn-light fw-bold px-4" type="button">
+                ĐĂNG KÝ
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-5 mb-4">
+            <h4 class="footer-brand mb-4">SPORT GOOD</h4>
+            <div class="footer-info">
+              <p class="fw-bold text-uppercase mb-3">
+                Công ty cổ phần Hoắc Đô và Thương mại
+              </p>
+              <p><i class="fas fa-id-card me-2"></i> MST: 0123686868</p>
+              <p>
+                <i class="fas fa-user-tie me-2"></i> Chịu trách nhiệm: Ông Hoàng
+                Hoắc Đô
+              </p>
+              <p>
+                <i class="fas fa-map-marker-alt me-2"></i> Tầng 2, Đô House,
+                Quỳnh Mai, Nghệ An
+              </p>
+              <p>
+                <i class="fas fa-building me-2"></i> VP: 25BT2 Linh Đàm, Hoàng
+                Mai, Hà Nội
+              </p>
+              <p><i class="fas fa-phone-alt me-2"></i> 0985.675.522</p>
+              <p><i class="fas fa-envelope me-2"></i> cudongauloi@gmail.com</p>
+            </div>
+            <div class="mt-4">
+              <img
+                src="./assets/images/image(HoacDo)/logo-da-thong-bao-bo-cong-thuong.webp"
+                class="bct-badge"
+                alt="Bộ công thương"
+              />
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mb-4">
+            <h5 class="footer-title">Chính sách khách hàng</h5>
+            <ul class="list-unstyled footer-links">
+              <li><a href="#">Chính sách bảo mật</a></li>
+              <li><a href="#">Chính sách vận chuyển</a></li>
+              <li><a href="#">Chính sách đổi trả</a></li>
+              <li><a href="#">Quy định sử dụng</a></li>
+              <li><a href="#">Hệ thống cửa hàng</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <h5 class="footer-title">Liên kết xã hội</h5>
+            <div class="social-icons d-flex gap-3 mb-4">
+              <a href="#" class="social-link"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+              <a href="#" class="social-link"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a href="#" class="social-link"
+                ><i class="fab fa-telegram-plane"></i
+              ></a>
+            </div>
+
+            <h5 class="footer-title">Phương thức thanh toán</h5>
+            <div class="payment-methods d-flex gap-2">
+              <img
+                src="./assets/images/image(HoacDo)/visa-removebg-preview.png"
+                alt="Visa"
+              />
+              <img
+                src="./assets/images/image(HoacDo)/jcp-removebg-preview.png"
+                alt="JCB"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="footer-bottom mt-5 py-3 border-top border-white border-opacity-10"
+      >
+        <div class="container text-center">
+          <p class="mb-0 opacity-50">
+            © Bản quyền thuộc về sportgood.vn | Cung cấp bởi Hoắc Đô
+          </p>
+        </div>
+      </div>
+    </footer>
+    <script src="./assets/js/main.js"></script>
+    <script src="./vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
