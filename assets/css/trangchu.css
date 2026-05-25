@@ -3,12 +3,13 @@
 ========================================= */
 .hero-banner-section {
   width: 100%;
-  overflow: hidden;
+  overflow: hidden; /*cắt bỏ phần trồi*/
 }
 .custom-indicators {
   margin-bottom: 15px;
 }
 .custom-indicators [data-bs-target] {
+  /* tạo hình tròn cho banner*/
   width: 12px !important;
   height: 12px !important;
   border-radius: 50%;
@@ -23,7 +24,7 @@
   transform: scale(1.1);
 }
 .carousel-item img {
-  object-fit: cover;
+  object-fit: cover; /* giữ ảnh đúng tỷ lệ*/
   max-height: 700px;
 }
 
@@ -79,7 +80,7 @@
 }
 
 .card-custom {
-  border: 1px solid #eaeaea;
+  border: 1px solid #eaeaea; /* tao 3d anh*/
   border-radius: 8px;
   overflow: visible;
   height: 100%;
@@ -104,6 +105,7 @@
   background-color: #f8f9fa;
 }
 .sale-badge {
+  /* dính nhãn*/
   position: absolute;
   bottom: -15px;
   left: -5px;
@@ -116,6 +118,7 @@
   text-align: left;
 }
 .card-title-custom {
+  /* tên dài thành 3...*/
   font-size: 13px;
   color: #333;
   font-weight: 600;
@@ -128,6 +131,7 @@
   min-height: 34px !important;
 }
 .price-current {
+  /* giá mới giá cũ*/
   color: #dc3545;
   font-weight: 800;
   font-size: 15px;
@@ -143,6 +147,7 @@
 }
 
 .btn-stock {
+  /* nút*/
   background: linear-gradient(to bottom, #f03a3a, #c82333);
   color: #fff;
   border: none;
